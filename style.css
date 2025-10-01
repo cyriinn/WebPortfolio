@@ -368,7 +368,9 @@ footer span {
 
 @media (max-width: 1470px) {
   .text-box2 p {
-    max-width: 750px;
+    font-size: 19px;
+    max-width: 700px;
+    height: 230px;
   }
 }
 
@@ -381,11 +383,28 @@ footer span {
   }
 }
 
+@media (max-width: 1292px) {
+   .container{
+    width: 90%;
+  }
+
+  .about .about-box {
+    flex-direction: column; 
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-box img {
+    width: 150px;
+    height: auto;
+  }
+}
+
 @media (max-width: 992px) {
   .menu-nav {
     gap: 25px;
   }
-  
   .menu-nav li a {
     font-size: 0.9rem;
   }
@@ -403,8 +422,9 @@ footer span {
 
   .about-box img {
     width: 150px;
-    height: 170px;
+    height: auto;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -531,6 +551,7 @@ footer span {
     padding: 8px;
   }
 }
+
 
 
 
