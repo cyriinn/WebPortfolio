@@ -365,10 +365,27 @@ footer span {
   font-weight: bold;
 }
 
+
+@media (max-width: 1470px) {
+  .text-box2 p {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 1420px) {
+  .experience-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+  }
+}
+
 @media (max-width: 992px) {
   .menu-nav {
     gap: 25px;
   }
+  
   .menu-nav li a {
     font-size: 0.9rem;
   }
@@ -387,16 +404,6 @@ footer span {
   .about-box img {
     width: 150px;
     height: 170px;
-  }
-
-}
-
-@media (max-width: 1420px) {
-  .experience-box {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    margin-top: 50px;
   }
 }
 
@@ -524,6 +531,7 @@ footer span {
     padding: 8px;
   }
 }
+
 
 
 
