@@ -155,7 +155,7 @@ section {
   margin-top: 0;
 }
 
-.text-box2 h2, .edu h2, .certi, .tbox p {
+.text-box2 h2, .edu h2, .skills, .certi, .tbox p {
   font-size: 18px;
   color: #25364f;
 }
@@ -555,6 +555,7 @@ footer span {
     padding: 8px;
   }
 }
+
 
 
 
