@@ -131,7 +131,7 @@ section {
 .about-box{
   display: flex;
   align-items:flex-start;       
-  gap: 50px;                 
+  gap: 40px;                 
   width: 100%;
   flex-wrap: wrap;
   padding: 40px 20px;
@@ -158,6 +158,10 @@ section {
 .text-box2 h2, .edu h2, .certi, .tbox p {
   font-size: 18px;
   color: #25364f;
+}
+
+.edu, .skills {
+  flex-basis: 100%;
 }
 
 .certi li a {
@@ -551,6 +555,7 @@ footer span {
     padding: 8px;
   }
 }
+
 
 
 
